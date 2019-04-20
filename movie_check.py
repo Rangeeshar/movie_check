@@ -36,7 +36,7 @@ class Check_Movie:
             print(stri)
 
     def send_message(self, bot, c_id, message):
-        print('bot.send_message(c_id, message)')
+        bot.send_message(c_id, message)
 
     def _make_request(self):
         while True:
